@@ -19,8 +19,3 @@ end
 def average_gpa_for_9th_grade
   "SELECT AVG(gpa) FROM students WHERE grade == 9;"
 end
-
-#SELECT COUNT(column_name) FROM table_name;
-# SELECT MIN(column_name) FROM table_name;
-# # SELECT MAX(column_name) FROM table_name;
-# SELECT AVG(net_worth) AS average_net_worth FROM cats;
